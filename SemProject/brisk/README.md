@@ -14,7 +14,7 @@ and the demo application is somewhat limited in functionality.
 ### How do I get set up? ###
 
 
-1) Download brisk from Bitbucket
+1) Download brisk from GitHub
 2) Extract in a directory of choice
 3) Navigate to .../brisk
 
