@@ -1,0 +1,6604 @@
+# FILE DESCRIPTION: 
+# Each camera/location is described by the following tags: 
+#
+# (1) "camera_id": Always the first tag, gives the name of the folder containing the images of the camera
+# (2) "quality": A quality measure of the camera in the range 0 .. 4:
+#       quality=0: Unusable camera (Stark movements/rotations, many invalid images, different resolutions) 
+#       quality=1: Camera may move considerably (but still shows same scene); 
+#       quality=2: Camera may not move by much. Quality of images at least intermediate. 
+#       quality=3: Camera may only move a little bit (less than five pixels). Quality of images is good or very good. 
+# (3) "shape": width and height of images in pixels (in this order)
+# (4) "has_bad_images": This camera has broken image files. 
+# (5) "box": A camera may have none or several boxes. Boxes highlight areas where text is printed on the image.
+#            A box is specified by c, r, w, h (in pixels, in this order) where:
+#       c, r: top-left corner of the box
+#       w, h: width and height of the box
+###############
+camera_id: 00017255
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 283 42
+box: 447 0 192 17
+box: 558 13 81 46
+###############
+camera_id: 00021931
+quality: 1
+has_bad_images: 1
+shape: 352 240
+###############
+camera_id: 00008888
+quality: 3
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 481 16
+box: 0 556 144 211
+###############
+camera_id: 00012856
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 16
+###############
+camera_id: 00021009
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 25
+###############
+camera_id: 00011383
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 0 0 116 14
+box: 0 274 176 13
+###############
+camera_id: 00014269
+quality: 2
+has_bad_images: 0
+shape: 640 360
+box: 0 0 132 51
+box: 116 0 134 20
+box: 512 0 127 25
+###############
+camera_id: 00009296
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 145 10
+box: 449 0 190 12
+###############
+camera_id: 00006530
+quality: 0
+###############
+camera_id: 00015813
+quality: 2
+has_bad_images: 0
+shape: 1024 576
+box: 0 0 763 17
+###############
+camera_id: 00018328
+quality: 3
+has_bad_images: 0
+shape: 736 480
+###############
+camera_id: 00018348
+quality: 2
+has_bad_images: 0
+shape: 1024 384
+box: 809 286 214 97
+box: 838 0 185 11
+box: 0 0 83 12
+###############
+camera_id: 00008387
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 11
+###############
+camera_id: 00021568
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 257 351 30
+box: 0 0 351 25
+box: 348 0 3 282
+box: 0 0 2 277
+box: 0 28 46 46
+###############
+camera_id: 00018464
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 18
+###############
+camera_id: 00006540
+quality: 0
+###############
+camera_id: 00018358
+quality: 3
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00019383
+quality: 3
+has_bad_images: 0
+shape: 704 480
+box: 0 0 65 65
+box: 0 461 703 18
+###############
+camera_id: 00021136
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 26
+###############
+camera_id: 00011734
+quality: 3
+has_bad_images: 0
+shape: 328 295
+box: 0 0 327 36
+box: 323 31 4 263
+box: 0 272 327 22
+box: 0 25 7 259
+box: 0 251 70 31
+###############
+camera_id: 00018430
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 291 419 23
+###############
+camera_id: 00018069
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00005520
+quality: 3
+has_bad_images: 0
+shape: 1280 960
+box: 0 0 1279 28
+###############
+camera_id: 00017082
+quality: 3
+has_bad_images: 0
+shape: 352 240
+box: 255 204 96 35
+###############
+camera_id: 00010020
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 200 42
+box: 445 0 194 9
+box: 467 315 148 136
+###############
+camera_id: 00021510
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 281 31
+box: 445 0 194 48
+###############
+camera_id: 00004130
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00010513
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 174 11
+box: 453 0 186 9
+###############
+camera_id: 00018349
+quality: 3
+has_bad_images: 0
+shape: 1024 384
+box: 808 273 215 110
+box: 838 0 185 12
+###############
+camera_id: 00022936
+quality: 3
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 22
+###############
+camera_id: 00004201
+quality: 0
+###############
+camera_id: 00010117
+quality: 3
+has_bad_images: 0
+shape: 1024 384
+box: 0 346 109 37
+box: 0 0 137 10
+box: 829 0 194 118
+###############
+camera_id: 00005293
+quality: 0
+###############
+camera_id: 00019718
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 17
+###############
+camera_id: 00019161
+quality: 3
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+###############
+camera_id: 00010735
+quality: 3
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 1023 8
+###############
+camera_id: 00010800
+quality: 1
+has_bad_images: 0
+shape: 720 576
+box: 0 0 719 30
+box: 0 544 719 31
+###############
+camera_id: 00019787
+quality: 0
+###############
+camera_id: 00009706
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 173 11
+box: 598 0 201 10
+###############
+camera_id: 00018106
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 215 52
+###############
+camera_id: 00010268
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00017149
+quality: 1
+has_bad_images: 0
+shape: 648 486
+box: 403 444 244 41
+###############
+camera_id: 00019863
+quality: 3
+has_bad_images: 0
+shape: 762 571
+box: 0 552 761 18
+###############
+camera_id: 00019104
+quality: 1
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 8
+###############
+camera_id: 00012871
+quality: 3
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 18
+###############
+camera_id: 00019830
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 282 24
+box: 445 0 194 10
+box: 514 8 125 40
+###############
+camera_id: 00019763
+quality: 0
+###############
+camera_id: 00018191
+quality: 0
+###############
+camera_id: 00004309
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018291
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 295 419 19
+###############
+camera_id: 00018294
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00009892
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 16
+###############
+camera_id: 00017738
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 141 7
+box: 0 466 123 13
+###############
+camera_id: 00020529
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 357 20
+###############
+camera_id: 00000451
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00021490
+quality: 1
+has_bad_images: 0
+shape: 352 240
+###############
+camera_id: 00010242
+quality: 0
+###############
+camera_id: 00019761
+quality: 0
+###############
+camera_id: 00021556
+quality: 3
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 20
+###############
+camera_id: 00005650
+quality: 1
+has_bad_images: 0
+shape: 768 576
+box: 0 555 767 20
+###############
+camera_id: 00019068
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 22
+###############
+camera_id: 00009889
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 17
+###############
+camera_id: 00020472
+quality: 1
+has_bad_images: 0
+shape: 704 480
+###############
+camera_id: 00021557
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 219 46
+box: 436 0 203 10
+box: 538 15 88 81
+###############
+camera_id: 00019343
+quality: 0
+###############
+camera_id: 00019786
+quality: 0
+###############
+camera_id: 00001550
+quality: 3
+has_bad_images: 0
+shape: 704 576
+box: 0 0 352 20
+###############
+camera_id: 00017141
+quality: 1
+has_bad_images: 0
+shape: 800 300
+box: 602 271 197 28
+###############
+camera_id: 00003120
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 17
+###############
+camera_id: 00009320
+quality: 3
+has_bad_images: 0
+shape: 800 600
+box: 0 0 115 10
+box: 605 0 194 11
+###############
+camera_id: 00007508
+quality: 1
+has_bad_images: 0
+shape: 352 240
+###############
+camera_id: 00009160
+quality: 3
+has_bad_images: 0
+shape: 800 600
+box: 0 0 354 10
+box: 606 0 193 11
+box: 0 579 492 20
+###############
+camera_id: 00011290
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 358 21 -363 -25
+###############
+camera_id: 00018229
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 289 419 25
+###############
+camera_id: 00009263
+quality: 3
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 15
+###############
+camera_id: 00010843
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00008917
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 522 460 117 19
+###############
+camera_id: 00003911
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+box: 0 2 5 285
+###############
+camera_id: 00003530
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 28
+###############
+camera_id: 00023153
+quality: 1
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 1279 28
+###############
+camera_id: 00003121
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 18
+###############
+camera_id: 00010143
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 8
+box: 0 470 583 9
+###############
+camera_id: 00003398
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 181 8
+box: 455 0 184 9
+###############
+camera_id: 00009980
+quality: 3
+has_bad_images: 0
+shape: 1280 960
+box: 0 0 284 13
+box: 541 0 179 122
+box: 1087 0 192 11
+###############
+camera_id: 00021526
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 280 22
+box: 446 0 193 15
+box: 538 11 101 59
+###############
+camera_id: 00007021
+quality: 0
+###############
+camera_id: 00008572
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 152 7
+box: 105 468 -109 16
+###############
+camera_id: 00021447
+quality: 0
+###############
+camera_id: 00018461
+quality: 3
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 17
+###############
+camera_id: 00018274
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 460 180 19
+###############
+camera_id: 00015948
+quality: 3
+has_bad_images: 0
+shape: 1600 1200
+###############
+camera_id: 00004372
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 285 451 354 28
+###############
+camera_id: 00019816
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 17
+box: 0 446 639 33
+###############
+camera_id: 00009241
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 156 8
+box: 451 0 188 12
+###############
+camera_id: 00008491
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 17
+box: 0 8 12 279
+###############
+camera_id: 00018414
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 706 30
+###############
+camera_id: 00020963
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 27
+###############
+camera_id: 00018286
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 171 17
+###############
+camera_id: 00018284
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00018574
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00020901
+quality: 0
+###############
+camera_id: 00010957
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 138 8
+box: 445 0 194 9
+###############
+camera_id: 00018599
+quality: 1
+has_bad_images: 0
+shape: 500 300
+box: 300 271 199 28
+###############
+camera_id: 00009134
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 447 0 192 15
+###############
+camera_id: 00018508
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 460 25
+###############
+camera_id: 00018548
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 0 419 18
+box: 0 295 419 19
+###############
+camera_id: 00008690
+quality: 3
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00017244
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 283 23
+box: 449 9 190 30
+box: 449 0 190 40
+###############
+camera_id: 00016846
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 19
+###############
+camera_id: 00018233
+quality: 3
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+box: 0 0 419 11
+###############
+camera_id: 00023161
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 459 453 180 26
+###############
+camera_id: 00008424
+quality: 3
+has_bad_images: 0
+shape: 1280 960
+###############
+camera_id: 00010909
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 159 12
+box: 448 0 191 12
+###############
+camera_id: 00006480
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 16
+box: 0 9 2 278
+###############
+camera_id: 00018483
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00009390
+quality: 2
+has_bad_images: 0
+shape: 800 390
+box: 0 0 115 161
+###############
+camera_id: 00009155
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 395 41
+box: 445 0 194 8
+###############
+camera_id: 00019433
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 458 265 21
+box: 467 456 172 23
+###############
+camera_id: 00018454
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 407 27
+###############
+camera_id: 00008695
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 197 11
+box: 451 0 188 14
+###############
+camera_id: 00001621
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 464 371 15
+###############
+camera_id: 00009157
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 230 13
+box: 172 459 467 20
+###############
+camera_id: 00018573
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00008586
+quality: 2
+has_bad_images: 0
+shape: 500 165
+box: 0 146 499 18
+###############
+camera_id: 00019861
+quality: 1
+has_bad_images: 0
+shape: 762 571
+box: 0 548 761 22
+###############
+camera_id: 00021466
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 323 177 156
+box: 0 0 93 9
+box: 451 0 188 10
+###############
+camera_id: 00018462
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 18
+###############
+camera_id: 00014440
+quality: 0
+###############
+camera_id: 00019759
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 201 0 150 30
+box: 0 0 236 17
+###############
+camera_id: 00019623
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 7 85 20
+###############
+camera_id: 00004297
+quality: 0
+###############
+camera_id: 00018333
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00005510
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 264 351 23
+box: 0 0 351 22
+###############
+camera_id: 00019156
+quality: 1
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 17
+###############
+camera_id: 00018268
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00005430
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 379 639 100
+box: 444 0 195 12
+###############
+camera_id: 00007940
+quality: 0
+###############
+camera_id: 00015841
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 455 639 24
+box: 0 0 639 25
+###############
+camera_id: 00008577
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 160 10
+box: 450 0 189 12
+###############
+camera_id: 00018489
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00023303
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 20
+###############
+camera_id: 00008566
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 243 11
+box: 441 0 198 12
+###############
+camera_id: 00008488
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+box: 0 13 11 274
+###############
+camera_id: 00006503
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 6 50 21
+box: 167 200 152 39
+###############
+camera_id: 00018243
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+box: 0 0 419 23
+###############
+camera_id: 00018148
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00019685
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 5 88 39
+box: 166 200 153 39
+###############
+camera_id: 00011318
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 358 16
+###############
+camera_id: 00018676
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 444 42
+###############
+camera_id: 00019856
+quality: 1
+has_bad_images: 0
+shape: 762 571
+box: 0 553 761 17
+###############
+camera_id: 00003527
+quality: 3
+has_bad_images: 0
+shape: 352 288
+box: 121 283 230 4
+###############
+camera_id: 00021428
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 66 18
+box: 214 219 109 23
+###############
+camera_id: 00001110
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 21
+###############
+camera_id: 00014581
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 53 34
+box: 162 191 157 48
+###############
+camera_id: 00011284
+quality: 0
+###############
+camera_id: 00006469
+quality: 1
+has_bad_images: 0
+shape: 384 288
+box: 0 0 383 18
+box: 381 11 2 276
+box: 0 282 382 5
+###############
+camera_id: 00020547
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 26
+###############
+camera_id: 00003449
+quality: 2
+has_bad_images: 0
+shape: 480 360
+box: 0 0 479 30
+###############
+camera_id: 00010198
+quality: 0
+###############
+camera_id: 00021508
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 285 30
+box: 442 0 197 16
+box: 597 4 42 92
+###############
+camera_id: 00010045
+quality: 0
+###############
+camera_id: 00017242
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 288 30
+box: 452 0 187 10
+box: 560 4 79 73
+###############
+camera_id: 00009518
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 100 89
+box: 0 0 639 10
+box: 0 463 395 16
+###############
+camera_id: 00019152
+quality: 3
+has_bad_images: 0
+shape: 320 240
+box: 0 204 123 35
+box: 0 0 319 10
+###############
+camera_id: 00022643
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 19
+###############
+camera_id: 00003522
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 18
+###############
+camera_id: 00017821
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 53
+###############
+camera_id: 00004249
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 17
+###############
+camera_id: 00020451
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 442 358 37
+box: 368 44 -370 -48
+###############
+camera_id: 00021624
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 24
+###############
+camera_id: 00017079
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00009383
+quality: 2
+has_bad_images: 0
+shape: 1280 960
+box: 0 0 342 14
+box: 0 875 113 84
+###############
+camera_id: 00019561
+quality: 2
+has_bad_images: 0
+shape: 1040 768
+box: 0 0 199 23
+box: 856 0 183 11
+###############
+camera_id: 00010130
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 356 20
+box: 242 565 461 10
+###############
+camera_id: 00004730
+quality: 2
+has_bad_images: 0
+shape: 800 450
+box: 0 0 281 35
+###############
+camera_id: 00021676
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 19
+###############
+camera_id: 00007090
+quality: 1
+has_bad_images: 0
+shape: 384 288
+box: 0 265 383 22
+box: 295 0 88 55
+###############
+camera_id: 00005660
+quality: 0
+###############
+camera_id: 00011659
+quality: 0
+###############
+camera_id: 00019724
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 19
+###############
+camera_id: 00019422
+quality: 3
+has_bad_images: 0
+shape: 2048 1536
+box: 0 1178 2047 357
+box: 0 0 276 52
+###############
+camera_id: 00018579
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00018523
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 462 147 17
+###############
+camera_id: 00017746
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 459 128 20
+box: 0 0 150 11
+###############
+camera_id: 00015942
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018522
+quality: 2
+has_bad_images: 0
+shape: 704 480
+###############
+camera_id: 00008179
+quality: 3
+has_bad_images: 0
+shape: 320 240
+box: 0 203 127 36
+box: 0 0 319 10
+###############
+camera_id: 00004680
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 152 216
+box: 138 0 80 20
+box: 462 0 177 22
+###############
+camera_id: 00014344
+quality: 1
+has_bad_images: 0
+shape: 1600 1200
+box: 0 0 288 22
+###############
+camera_id: 00019251
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00004663
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 171 9
+box: 443 0 196 9
+###############
+camera_id: 00023228
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 17
+###############
+camera_id: 00018319
+quality: 0
+###############
+camera_id: 00010114
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 469 171 10
+box: 0 0 149 12
+###############
+camera_id: 00017165
+quality: 1
+has_bad_images: 0
+shape: 648 486
+box: 428 451 219 34
+###############
+camera_id: 00021512
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 278 44
+box: 451 0 188 58
+###############
+camera_id: 00019388
+quality: 3
+has_bad_images: 0
+shape: 1280 960
+box: 0 0 204 67
+box: 1082 0 197 12
+###############
+camera_id: 00009380
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 159 83
+###############
+camera_id: 00008451
+quality: 3
+has_bad_images: 0
+shape: 800 600
+box: 0 0 500 69
+box: 598 0 201 13
+###############
+camera_id: 00005300
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 299 18
+box: 446 0 193 10
+box: 0 447 136 25
+###############
+camera_id: 00018528
+quality: 2
+has_bad_images: 0
+shape: 720 480
+###############
+camera_id: 00018046
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 24
+###############
+camera_id: 00019764
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 17
+box: 190 3 161 27
+box: 348 22 3 265
+box: 0 285 351 2
+###############
+camera_id: 00018424
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00018384
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 171 20
+###############
+camera_id: 00012859
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 16
+###############
+camera_id: 00019721
+quality: 3
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+###############
+camera_id: 00008576
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 460 639 19
+###############
+camera_id: 00017033
+quality: 3
+has_bad_images: 0
+shape: 1024 576
+box: 0 0 390 17
+###############
+camera_id: 00017256
+quality: 0
+###############
+camera_id: 00006964
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 9
+###############
+camera_id: 00009772
+quality: 2
+has_bad_images: 0
+shape: 704 480
+###############
+camera_id: 00018228
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00019396
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 359 20
+box: 0 502 703 73
+###############
+camera_id: 00007969
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 160 9
+###############
+camera_id: 00018446
+quality: 1
+has_bad_images: 0
+shape: 1200 425
+box: 0 0 268 10
+box: 1015 0 184 11
+###############
+camera_id: 00014734
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+###############
+camera_id: 00009514
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 550 45
+box: 0 390 189 89
+###############
+camera_id: 00008464
+quality: 1
+has_bad_images: 0
+shape: 455 341
+box: 0 320 454 20
+###############
+camera_id: 00014122
+quality: 0
+###############
+camera_id: 00008290
+quality: 2
+has_bad_images: 0
+shape: 384 288
+box: 0 0 383 20
+###############
+camera_id: 00021439
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 63 13
+box: 215 222 108 20
+###############
+camera_id: 00018615
+quality: 3
+has_bad_images: 0
+shape: 1023 767
+box: 0 0 1022 30
+###############
+camera_id: 00010838
+quality: 3
+has_bad_images: 0
+shape: 800 600
+box: 612 0 187 11
+###############
+camera_id: 00019874
+quality: 3
+has_bad_images: 0
+shape: 762 571
+box: 0 551 761 19
+###############
+camera_id: 00009236
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00010729
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 154 10
+box: 455 0 184 12
+###############
+camera_id: 00019323
+quality: 0
+###############
+camera_id: 00019917
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 161 47
+###############
+camera_id: 00015735
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 14
+###############
+camera_id: 00017254
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 285 30
+box: 454 0 185 63
+###############
+camera_id: 00018190
+quality: 0
+###############
+camera_id: 00024226
+quality: 1
+has_bad_images: 0
+shape: 6000 4000
+###############
+camera_id: 00018426
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 290 419 24
+###############
+camera_id: 00018576
+quality: 0
+###############
+camera_id: 00018134
+quality: 0
+###############
+camera_id: 00019741
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 17
+###############
+camera_id: 00017733
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018332
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00017754
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 164 11
+box: 0 467 122 12
+###############
+camera_id: 00019650
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 5 51 22
+box: 170 195 149 44
+###############
+camera_id: 00009292
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 173 14
+box: 452 0 187 14
+box: 0 360 117 119
+###############
+camera_id: 00019298
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 438 281 41
+###############
+camera_id: 00010910
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 279 15
+box: 445 0 194 77
+###############
+camera_id: 00009694
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 273 13
+box: 452 0 187 10
+###############
+camera_id: 00011380
+quality: 1
+has_bad_images: 0
+shape: 320 240
+###############
+camera_id: 00018432
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 127 424 382 55
+###############
+camera_id: 00018510
+quality: 0
+###############
+camera_id: 00022606
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 462 639 17
+###############
+camera_id: 00014326
+quality: 0
+###############
+camera_id: 00011431
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00017180
+quality: 1
+has_bad_images: 0
+shape: 1024 576
+###############
+camera_id: 00019767
+quality: 0
+###############
+camera_id: 00003130
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 19
+###############
+camera_id: 00010283
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 441 113 38
+box: 0 0 191 10
+box: 441 0 198 12
+###############
+camera_id: 00004181
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 510 456 129 23
+###############
+camera_id: 00000271
+quality: 0
+###############
+camera_id: 00009082
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 349 12
+box: 439 0 200 10
+###############
+camera_id: 00017157
+quality: 2
+has_bad_images: 0
+shape: 960 384
+###############
+camera_id: 00021480
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 538 36
+###############
+camera_id: 00003451
+quality: 0
+###############
+camera_id: 00006470
+quality: 2
+has_bad_images: 0
+shape: 384 288
+box: 0 0 383 18
+box: 230 243 153 44
+###############
+camera_id: 00017354
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 384 17
+###############
+camera_id: 00018222
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00008220
+quality: 0
+###############
+camera_id: 00008545
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 21
+###############
+camera_id: 00004580
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 9
+###############
+camera_id: 00007564
+quality: 2
+has_bad_images: 0
+shape: 1624 1224
+box: 0 1208 172 15
+box: 0 0 575 13
+box: 1394 0 229 17
+box: 1405 1205 218 18
+###############
+camera_id: 00009131
+quality: 2
+has_bad_images: 0
+shape: 800 390
+box: 0 0 117 62
+box: 597 0 202 155
+###############
+camera_id: 00003860
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 19
+###############
+camera_id: 00008180
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 206 123 33
+box: 0 0 319 9
+###############
+camera_id: 00021128
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 18
+###############
+camera_id: 00021162
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 26
+###############
+camera_id: 00024166
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 441 639 38
+box: 11 406 110 41
+###############
+camera_id: 00009023
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 10
+###############
+camera_id: 00005653
+quality: 1
+has_bad_images: 0
+shape: 768 576
+box: 0 556 767 19
+box: 0 0 767 9
+###############
+camera_id: 00018194
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 295 419 19
+###############
+camera_id: 00008330
+quality: 1
+has_bad_images: 0
+shape: 320 240
+###############
+camera_id: 00023468
+quality: 1
+has_bad_images: 0
+shape: 1024 576
+box: 0 0 197 17
+box: 866 0 157 56
+###############
+camera_id: 00008558
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 30
+###############
+camera_id: 00018060
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 291 419 23
+###############
+camera_id: 00009787
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 18
+###############
+camera_id: 00020476
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 373 60
+box: 362 0 341 22
+###############
+camera_id: 00018271
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 297 419 17
+box: 0 294 419 9
+###############
+camera_id: 00018535
+quality: 1
+has_bad_images: 0
+shape: 1296 960
+box: 0 0 249 88
+###############
+camera_id: 00007990
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 449 0 190 10
+###############
+camera_id: 00016486
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 459 102
+box: 0 412 639 67
+box: 619 0 20 445
+box: 445 0 194 8
+box: 0 95 5 355
+###############
+camera_id: 00018141
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 418 26 -422 -30
+###############
+camera_id: 00018520
+quality: 0
+###############
+camera_id: 00018675
+quality: 0
+###############
+camera_id: 00018744
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 216 67
+box: 0 422 125 57
+box: 520 422 119 57
+###############
+camera_id: 00003587
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 353 19
+###############
+camera_id: 00011185
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 442 0 197 10
+box: 563 441 76 38
+box: 0 470 332 9
+###############
+camera_id: 00014731
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 19
+###############
+camera_id: 00018366
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00019663
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 22
+###############
+camera_id: 00017229
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 321 59
+box: 536 0 487 61
+###############
+camera_id: 00009121
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 248 14
+box: 451 0 188 13
+###############
+camera_id: 00021613
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 18
+###############
+camera_id: 00012037
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 266 32
+###############
+camera_id: 00018202
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 16
+box: 0 448 639 31
+###############
+camera_id: 00011446
+quality: 2
+has_bad_images: 0
+shape: 352 288
+###############
+camera_id: 00007223
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 22
+box: 479 11 160 114
+###############
+camera_id: 00018345
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 17
+###############
+camera_id: 00017178
+quality: 3
+has_bad_images: 0
+shape: 500 375
+box: 0 0 499 15
+###############
+camera_id: 00004828
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 176 455 284 24
+###############
+camera_id: 00011371
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018963
+quality: 2
+has_bad_images: 0
+shape: 1280 960
+box: 0 912 247 47
+box: 0 0 296 22
+###############
+camera_id: 00005689
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 576 799 23
+###############
+camera_id: 00018226
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00021433
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 64 12
+box: 218 224 105 18
+###############
+camera_id: 00021571
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 30
+box: 349 28 2 259
+box: 0 272 39 15
+box: 0 11 43 63
+###############
+camera_id: 00017926
+quality: 3
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 54
+###############
+camera_id: 00018185
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 291 419 23
+###############
+camera_id: 00018184
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00021500
+quality: 0
+###############
+camera_id: 00019071
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 283 438 356 41
+###############
+camera_id: 00019206
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 211 15
+###############
+camera_id: 00002041
+quality: 0
+###############
+camera_id: 00018435
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 427 25
+###############
+camera_id: 00019708
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+###############
+camera_id: 00009371
+quality: 0
+###############
+camera_id: 00011288
+quality: 2
+has_bad_images: 0
+shape: 640 504
+box: 0 478 639 25
+###############
+camera_id: 00009228
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 441 453 38
+box: 0 0 639 24
+###############
+camera_id: 00007987
+quality: 0
+###############
+camera_id: 00008430
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 629 29
+###############
+camera_id: 00011401
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 18
+###############
+camera_id: 00021488
+quality: 2
+has_bad_images: 0
+shape: 352 240
+###############
+camera_id: 00019401
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 452 220 27
+box: 0 0 11 479
+box: 619 0 20 479
+###############
+camera_id: 00018449
+quality: 1
+has_bad_images: 0
+shape: 320 240
+box: 0 221 319 18
+###############
+camera_id: 00019862
+quality: 2
+has_bad_images: 0
+shape: 762 571
+box: 0 550 761 20
+###############
+camera_id: 00018195
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 15
+###############
+camera_id: 00008873
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 463 602 16
+box: 0 0 639 11
+###############
+camera_id: 00019311
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 513 20
+###############
+camera_id: 00019686
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 168 195 151 44
+box: 0 3 77 25
+###############
+camera_id: 00002071
+quality: 0
+###############
+camera_id: 00021141
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 24
+###############
+camera_id: 00009500
+quality: 0
+###############
+camera_id: 00020508
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 365 56
+box: 331 0 372 16
+###############
+camera_id: 00017163
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00006810
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 22
+box: 0 9 6 278
+box: 34 217 293 44
+###############
+camera_id: 00018192
+quality: 0
+###############
+camera_id: 00007190
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 18
+###############
+camera_id: 00019778
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+box: 199 8 152 20
+###############
+camera_id: 00010126
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 93
+box: 506 323 133 156
+###############
+camera_id: 00003578
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00010430
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+###############
+camera_id: 00008620
+quality: 0
+###############
+camera_id: 00008970
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 229 20
+box: 0 218 155 21
+###############
+camera_id: 00021096
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 33
+###############
+camera_id: 00017185
+quality: 2
+has_bad_images: 0
+shape: 648 486
+box: 424 448 223 37
+###############
+camera_id: 00020499
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 362 58
+box: 340 0 363 18
+###############
+camera_id: 00009025
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 362 639 117
+box: 0 0 639 12
+###############
+camera_id: 00020997
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 28
+###############
+camera_id: 00009322
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+###############
+camera_id: 00019699
+quality: 3
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 19
+box: 0 11 3 276
+box: 200 247 151 40
+###############
+camera_id: 00020994
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 26
+###############
+camera_id: 00008428
+quality: 0
+###############
+camera_id: 00018390
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00003976
+quality: 0
+###############
+camera_id: 00011153
+quality: 2
+has_bad_images: 0
+shape: 1280 960
+box: 0 0 299 16
+box: 1089 0 190 15
+###############
+camera_id: 00009254
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 148 11
+box: 0 469 155 10
+###############
+camera_id: 00007380
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 8
+###############
+camera_id: 00018485
+quality: 2
+has_bad_images: 0
+shape: 1280 720
+###############
+camera_id: 00004440
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 518 0 121 171
+box: 0 0 639 16
+###############
+camera_id: 00019788
+quality: 0
+###############
+camera_id: 00018312
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 344 16
+###############
+camera_id: 00019119
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 441 639 38
+###############
+camera_id: 00009106
+quality: 0
+###############
+camera_id: 00017176
+quality: 1
+has_bad_images: 0
+shape: 1024 576
+box: 0 0 1023 21
+###############
+camera_id: 00009700
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 197 14
+box: 0 3 79 99
+box: 450 0 189 14
+###############
+camera_id: 00011389
+quality: 0
+###############
+camera_id: 00018546
+quality: 3
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 302 38
+###############
+camera_id: 00002430
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 18
+box: 517 6 122 123
+###############
+camera_id: 00021036
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 27
+###############
+camera_id: 00003379
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 254 17
+###############
+camera_id: 00018334
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00017127
+quality: 1
+has_bad_images: 0
+shape: 500 250
+box: 317 223 182 26
+box: 302 225 38 24
+###############
+camera_id: 00011002
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+box: 0 442 107 37
+###############
+camera_id: 00012862
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 16
+###############
+camera_id: 00018961
+quality: 3
+has_bad_images: 0
+shape: 1280 960
+box: 0 0 1279 12
+###############
+camera_id: 00019710
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 81 27
+box: 169 194 150 45
+###############
+camera_id: 00018714
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 445 416 34
+box: 413 446 20 33
+###############
+camera_id: 00019731
+quality: 2
+has_bad_images: 0
+shape: 480 360
+box: 0 336 479 23
+###############
+camera_id: 00012865
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 18
+###############
+camera_id: 00019727
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 20
+###############
+camera_id: 00008743
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00017048
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 238 70
+###############
+camera_id: 00008078
+quality: 0
+###############
+camera_id: 00019777
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 207 18
+box: 199 0 152 33
+###############
+camera_id: 00019725
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 17
+###############
+camera_id: 00019111
+quality: 1
+has_bad_images: 0
+shape: 640 368
+###############
+camera_id: 00008800
+quality: 3
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 206 44
+box: 836 0 187 118
+###############
+camera_id: 00019859
+quality: 1
+has_bad_images: 0
+shape: 762 571
+box: 0 543 761 27
+###############
+camera_id: 00017197
+quality: 0
+###############
+camera_id: 00009206
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 12
+###############
+camera_id: 00009276
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+box: 0 5 102 85
+box: 0 467 392 12
+###############
+camera_id: 00018180
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00018292
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00020817
+quality: 0
+###############
+camera_id: 00008489
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 20
+box: 0 15 3 272
+###############
+camera_id: 00021728
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 257 39
+###############
+camera_id: 00021084
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 58
+###############
+camera_id: 00019188
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 201 457 236 22
+###############
+camera_id: 00018322
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00014539
+quality: 0
+###############
+camera_id: 00018419
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 289 419 25
+###############
+camera_id: 00004220
+quality: 0
+###############
+camera_id: 00018503
+quality: 1
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 10
+###############
+camera_id: 00010254
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 9
+box: 0 438 281 41
+###############
+camera_id: 00022516
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 19
+box: 0 5 4 570
+###############
+camera_id: 00018143
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00018165
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00020838
+quality: 1
+has_bad_images: 0
+shape: 320 240
+box: 0 219 319 20
+###############
+camera_id: 00009120
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+###############
+camera_id: 00023521
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 27
+###############
+camera_id: 00007381
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 10
+###############
+camera_id: 00019308
+quality: 2
+has_bad_images: 0
+shape: 640 360
+box: 0 0 639 27
+box: 0 253 136 106
+###############
+camera_id: 00010027
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 1023 13
+box: 838 0 185 102
+###############
+camera_id: 00005330
+quality: 2
+has_bad_images: 0
+shape: 315 240
+box: 0 0 314 44
+###############
+camera_id: 00010823
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 440 0 199 12
+###############
+camera_id: 00010944
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+###############
+camera_id: 00010173
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 55
+###############
+camera_id: 00017409
+quality: 2
+has_bad_images: 0
+shape: 1600 1200
+box: 0 1030 328 156
+box: 0 1163 1599 36
+###############
+camera_id: 00010030
+quality: 0
+###############
+camera_id: 00007350
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 14
+###############
+camera_id: 00007246
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+###############
+camera_id: 00017826
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 53
+###############
+camera_id: 00014738
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 19
+###############
+camera_id: 00019197
+quality: 0
+###############
+camera_id: 00006634
+quality: 0
+###############
+camera_id: 00010915
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 42
+###############
+camera_id: 00021574
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 47
+box: 336 37 15 250
+box: 118 259 102 28
+box: -3 29 47 42
+###############
+camera_id: 00010294
+quality: 2
+has_bad_images: 0
+shape: 420 314
+###############
+camera_id: 00008944
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018359
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 24
+###############
+camera_id: 00017174
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00023318
+quality: 2
+has_bad_images: 0
+shape: 704 576
+###############
+camera_id: 00010180
+quality: 2
+has_bad_images: 0
+shape: 1280 960
+box: 0 0 190 14
+###############
+camera_id: 00019826
+quality: 3
+has_bad_images: 0
+shape: 720 480
+box: 273 434 170 45
+###############
+camera_id: 00009398
+quality: 0
+###############
+camera_id: 00009136
+quality: 0
+###############
+camera_id: 00021524
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 25
+box: 541 8 98 119
+###############
+camera_id: 00018378
+quality: 1
+has_bad_images: 0
+shape: 320 261
+box: 0 0 134 51
+box: 0 236 319 24
+box: 318 0 1 247
+box: 128 0 191 1
+box: 0 44 2 206
+###############
+camera_id: 00006775
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+###############
+camera_id: 00019838
+quality: 0
+###############
+camera_id: 00010498
+quality: 2
+has_bad_images: 0
+shape: 480 360
+box: 0 0 479 20
+###############
+camera_id: 00018260
+quality: 1
+has_bad_images: 0
+shape: 600 420
+box: 0 0 155 32
+###############
+camera_id: 00005038
+quality: 0
+###############
+camera_id: 00009413
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 164 16
+###############
+camera_id: 00018304
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 289 419 25
+box: 0 0 158 54
+###############
+camera_id: 00014494
+quality: 0
+###############
+camera_id: 00018318
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 399 30
+###############
+camera_id: 00010176
+quality: 0
+###############
+camera_id: 00007070
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 532 799 67
+box: 0 450 94 102
+box: 0 0 152 11
+###############
+camera_id: 00019865
+quality: 1
+has_bad_images: 0
+shape: 762 572
+box: 0 550 761 21
+###############
+camera_id: 00008410
+quality: 1
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 1279 33
+###############
+camera_id: 00010919
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 14
+###############
+camera_id: 00006488
+quality: 2
+has_bad_images: 0
+shape: 384 288
+box: 0 0 383 21
+###############
+camera_id: 00009149
+quality: 2
+has_bad_images: 0
+shape: 800 550
+box: 0 0 127 61
+box: 592 0 207 12
+###############
+camera_id: 00003127
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 19
+###############
+camera_id: 00007444
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 168 20
+###############
+camera_id: 00008407
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 20
+###############
+camera_id: 00019811
+quality: 1
+has_bad_images: 0
+shape: 212 159
+###############
+camera_id: 00010780
+quality: 1
+has_bad_images: 0
+shape: 1280 960
+box: 0 820 218 137
+box: 0 0 1279 20
+###############
+camera_id: 00018264
+quality: 1
+has_bad_images: 0
+shape: 1280 800
+box: 0 0 1279 30
+###############
+camera_id: 00010128
+quality: 0
+###############
+camera_id: 00020535
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 70
+###############
+camera_id: 00019746
+quality: 1
+has_bad_images: 0
+shape: 480 360
+box: 0 0 479 25
+###############
+camera_id: 00018176
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00010240
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+box: 0 441 120 38
+###############
+camera_id: 00024106
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 388 639 91
+box: 361 0 278 26
+###############
+camera_id: 00019638
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 106 61
+box: 477 428 162 51
+###############
+camera_id: 00021743
+quality: 3
+has_bad_images: 0
+shape: 1296 960
+box: 0 0 651 75
+###############
+camera_id: 00012889
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 19
+###############
+camera_id: 00009030
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 10
+###############
+camera_id: 00018213
+quality: 0
+###############
+camera_id: 00019770
+quality: 0
+###############
+camera_id: 00022261
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 116 49
+box: 102 0 537 22
+###############
+camera_id: 00019671
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+###############
+camera_id: 00003150
+quality: 0
+###############
+camera_id: 00010898
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 436 0 203 39
+box: 0 0 5 479
+box: 0 475 639 4
+box: 635 1 4 478
+box: 2 0 623 4
+###############
+camera_id: 00003720
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 0 357 17
+###############
+camera_id: 00008251
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00004951
+quality: 2
+has_bad_images: 0
+shape: 800 600
+###############
+camera_id: 00001030
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 0 747 1023 20
+###############
+camera_id: 00010201
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 23
+###############
+camera_id: 00009608
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 12
+box: 0 469 639 10
+###############
+camera_id: 00017700
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018154
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00005420
+quality: 3
+has_bad_images: 0
+shape: 1280 720
+box: 0 694 1279 25
+###############
+camera_id: 00011363
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018231
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00008431
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 1023 33
+###############
+camera_id: 00010269
+quality: 1
+has_bad_images: 0
+shape: 960 544
+box: 0 499 959 44
+box: 803 411 156 132
+box: 0 455 155 88
+###############
+camera_id: 00018290
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00019635
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 20
+box: 199 243 152 44
+###############
+camera_id: 00018168
+quality: 1
+has_bad_images: 0
+shape: 320 240
+###############
+camera_id: 00007291
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 449 0 190 71
+box: 0 0 122 11
+###############
+camera_id: 00007939
+quality: 0
+###############
+camera_id: 00019386
+quality: 0
+###############
+camera_id: 00014737
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 19
+###############
+camera_id: 00011101
+quality: 2
+has_bad_images: 0
+shape: 186 140
+box: 0 0 185 9
+box: 0 132 185 7
+###############
+camera_id: 00021514
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 27
+box: 552 12 87 46
+###############
+camera_id: 00021429
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 64 17
+box: 217 223 106 19
+###############
+camera_id: 00018152
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 18
+box: 0 465 639 14
+###############
+camera_id: 00010070
+quality: 0
+###############
+camera_id: 00017154
+quality: 1
+has_bad_images: 0
+shape: 648 486
+box: 395 442 252 43
+###############
+camera_id: 00019640
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 5 57 27
+###############
+camera_id: 00010523
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 10
+box: 559 0 80 34
+###############
+camera_id: 00003437
+quality: 1
+has_bad_images: 0
+shape: 768 576
+box: 0 553 767 22
+###############
+camera_id: 00018455
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00002761
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 22
+###############
+camera_id: 00010462
+quality: 2
+has_bad_images: 0
+shape: 480 360
+###############
+camera_id: 00002251
+quality: 2
+has_bad_images: 0
+shape: 328 314
+box: 0 247 327 66
+box: 0 0 327 35
+box: 0 31 7 241
+box: 321 23 6 249
+###############
+camera_id: 00020566
+quality: 0
+###############
+camera_id: 00021120
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 26
+###############
+camera_id: 00019557
+quality: 1
+has_bad_images: 0
+shape: 768 576
+box: 0 555 767 20
+box: 0 0 767 12
+###############
+camera_id: 00017150
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00022291
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 29
+###############
+camera_id: 00018203
+quality: 2
+has_bad_images: 0
+shape: 1280 960
+box: 0 0 289 61
+###############
+camera_id: 00009565
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 32
+###############
+camera_id: 00022133
+quality: 1
+has_bad_images: 1
+shape: 352 240
+box: 0 0 351 4
+###############
+camera_id: 00023401
+quality: 1
+has_bad_images: 0
+shape: 1280 1024
+box: 0 0 1279 36
+###############
+camera_id: 00010241
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 1023 17
+###############
+camera_id: 00021519
+quality: 0
+###############
+camera_id: 00019793
+quality: 0
+###############
+camera_id: 00018057
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 285 419 29
+###############
+camera_id: 00008820
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 23
+###############
+camera_id: 00009619
+quality: 0
+###############
+camera_id: 00008562
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+###############
+camera_id: 00012368
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 18
+box: 512 2 127 129
+###############
+camera_id: 00003576
+quality: 0
+###############
+camera_id: 00018365
+quality: 3
+has_bad_images: 0
+shape: 480 360
+box: 0 0 479 29
+###############
+camera_id: 00012853
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 21
+###############
+camera_id: 00019800
+quality: 0
+###############
+camera_id: 00010120
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 619 184 148
+box: 0 0 1023 12
+###############
+camera_id: 00010770
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 18
+###############
+camera_id: 00010433
+quality: 2
+has_bad_images: 0
+shape: 352 288
+###############
+camera_id: 00018876
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 465 27
+###############
+camera_id: 00007348
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 17
+###############
+camera_id: 00003389
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 459 639 20
+###############
+camera_id: 00009590
+quality: 0
+###############
+camera_id: 00019359
+quality: 0
+###############
+camera_id: 00004500
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 392 439 247 40
+###############
+camera_id: 00021435
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 65 18
+box: 212 217 111 25
+###############
+camera_id: 00018153
+quality: 2
+has_bad_images: 0
+shape: 960 540
+box: 707 498 252 41
+###############
+camera_id: 00009403
+quality: 0
+###############
+camera_id: 00008504
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+box: 0 10 5 277
+###############
+camera_id: 00009363
+quality: 1
+has_bad_images: 0
+shape: 760 540
+box: 0 522 759 17
+box: 526 514 233 18
+box: 0 0 210 29
+###############
+camera_id: 00019836
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 621 24
+###############
+camera_id: 00018266
+quality: 3
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 1023 110
+###############
+camera_id: 00022666
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 367 26
+###############
+camera_id: 00004301
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 20
+box: 0 13 4 274
+box: 0 274 351 13
+###############
+camera_id: 00004513
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018933
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 233 45
+###############
+camera_id: 00018139
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00009593
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 95
+box: 0 465 639 14
+###############
+camera_id: 00022628
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 374 24
+box: 0 569 703 6
+###############
+camera_id: 00017240
+quality: 0
+###############
+camera_id: 00010888
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 17
+###############
+camera_id: 00019305
+quality: 2
+has_bad_images: 0
+shape: 800 600
+###############
+camera_id: 00004717
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 11
+###############
+camera_id: 00010012
+quality: 2
+has_bad_images: 0
+shape: 320 240
+###############
+camera_id: 00018931
+quality: 0
+###############
+camera_id: 00017727
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00021878
+quality: 2
+has_bad_images: 0
+shape: 1296 960
+box: 0 0 937 119
+###############
+camera_id: 00014455
+quality: 0
+###############
+camera_id: 00022433
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00009145
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 14
+###############
+camera_id: 00004600
+quality: 0
+###############
+camera_id: 00011013
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 14
+###############
+camera_id: 00003447
+quality: 1
+has_bad_images: 0
+shape: 480 360
+box: 0 0 479 26
+###############
+camera_id: 00020753
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 31
+###############
+camera_id: 00003524
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 21
+###############
+camera_id: 00018250
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00018166
+quality: 1
+has_bad_images: 0
+shape: 704 480
+###############
+camera_id: 00005461
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 49
+###############
+camera_id: 00014383
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 150 447 313 32
+###############
+camera_id: 00006450
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 20
+box: 349 16 2 223
+###############
+camera_id: 00021432
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 214 221 109 21
+box: 0 0 66 18
+###############
+camera_id: 00009256
+quality: 0
+###############
+camera_id: 00017543
+quality: 0
+###############
+camera_id: 00019837
+quality: 0
+###############
+camera_id: 00017130
+quality: 2
+has_bad_images: 0
+shape: 500 300
+box: 298 269 201 30
+###############
+camera_id: 00019639
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 64 34
+###############
+camera_id: 00009931
+quality: 2
+has_bad_images: 0
+shape: 704 576
+###############
+camera_id: 00014188
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 12
+###############
+camera_id: 00021457
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018182
+quality: 1
+has_bad_images: 0
+shape: 512 288
+box: 377 0 134 115
+box: 0 0 511 11
+###############
+camera_id: 00021518
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 32
+box: 565 19 74 78
+###############
+camera_id: 00015786
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 447 478 32
+###############
+camera_id: 00008494
+quality: 3
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 124
+###############
+camera_id: 00018413
+quality: 0
+###############
+camera_id: 00019407
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 21
+###############
+camera_id: 00008780
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 9
+###############
+camera_id: 00019797
+quality: 0
+###############
+camera_id: 00017986
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 57
+###############
+camera_id: 00009668
+quality: 2
+has_bad_images: 0
+shape: 800 390
+box: 0 0 114 61
+box: 591 0 208 157
+###############
+camera_id: 00018421
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 290 419 24
+###############
+camera_id: 00017086
+quality: 0
+###############
+camera_id: 00017086
+quality: 0
+###############
+camera_id: 00017210
+quality: 0
+###############
+camera_id: 00012880
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 17
+###############
+camera_id: 00006457
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 21
+###############
+camera_id: 00018423
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 291 419 23
+###############
+camera_id: 00007433
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 164 82
+box: 475 0 164 36
+box: 0 456 639 23
+###############
+camera_id: 00021441
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 170 33
+box: 210 219 113 23
+###############
+camera_id: 00018353
+quality: 2
+has_bad_images: 0
+shape: 1024 576
+box: 0 0 1023 16
+###############
+camera_id: 00004523
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018398
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 290 419 24
+###############
+camera_id: 00017237
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 0 677 1023 90
+box: 0 0 363 20
+###############
+camera_id: 00011393
+quality: 3
+has_bad_images: 0
+shape: 704 480
+###############
+camera_id: 00017631
+quality: 3
+has_bad_images: 0
+shape: 1600 1200
+box: 0 0 944 37
+###############
+camera_id: 00019630
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 93 32
+box: 169 195 150 44
+###############
+camera_id: 00021511
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 281 46
+box: 451 0 188 14
+###############
+camera_id: 00017249
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 307 26
+box: 453 0 186 54
+###############
+camera_id: 00010885
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 10
+###############
+camera_id: 00014185
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 21
+###############
+camera_id: 00003484
+quality: 3
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00003493
+quality: 3
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00021498
+quality: 1
+has_bad_images: 0
+shape: 1280 1024
+box: 0 0 1279 23
+box: 0 991 111 32
+###############
+camera_id: 00011750
+quality: 0
+###############
+camera_id: 00004006
+quality: 0
+###############
+camera_id: 00009137
+quality: 3
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 1023 14
+###############
+camera_id: 00019750
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 19
+###############
+camera_id: 00011000
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 286 77
+box: 447 0 192 23
+box: 496 370 143 109
+###############
+camera_id: 00004171
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 165 28
+###############
+camera_id: 00021438
+quality: 0
+###############
+camera_id: 00018450
+quality: 0
+###############
+camera_id: 00020506
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 19
+box: 0 15 365 46
+###############
+camera_id: 00008438
+quality: 2
+has_bad_images: 0
+shape: 800 600
+###############
+camera_id: 00017618
+quality: 3
+has_bad_images: 0
+shape: 1600 1200
+box: 0 0 965 43
+###############
+camera_id: 00018133
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00021443
+quality: 0
+###############
+camera_id: 00018912
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00019776
+quality: 0
+###############
+camera_id: 00021072
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 30
+###############
+camera_id: 00008578
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 165 12
+box: 0 461 68 18
+###############
+camera_id: 00009458
+quality: 0
+###############
+camera_id: 00007243
+quality: 3
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 1279 11
+box: 1049 0 230 77
+###############
+camera_id: 00017204
+quality: 0
+###############
+camera_id: 00003891
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 15
+box: 0 15 152 141
+###############
+camera_id: 00009243
+quality: 0
+###############
+camera_id: 00019428
+quality: 0
+###############
+camera_id: 00019665
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 199 241 152 46
+box: 0 0 351 20
+###############
+camera_id: 00018179
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 748 725 275 42
+###############
+camera_id: 00018921
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 30
+box: 573 11 66 84
+box: 0 461 639 18
+###############
+camera_id: 00019203
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 451 19
+###############
+camera_id: 00018369
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 220 38
+###############
+camera_id: 00020739
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 29
+###############
+camera_id: 00003840
+quality: 0
+###############
+camera_id: 00017232
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 49
+###############
+camera_id: 00020769
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 29
+###############
+camera_id: 00018240
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 289 419 25
+###############
+camera_id: 00018616
+quality: 0
+###############
+camera_id: 00018146
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00021099
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 26
+###############
+camera_id: 00023461
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 17
+###############
+camera_id: 00018145
+quality: 3
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 31
+###############
+camera_id: 00008608
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 14
+###############
+camera_id: 00019756
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+box: 199 0 152 28
+###############
+camera_id: 00018457
+quality: 1
+has_bad_images: 0
+shape: 640 360
+###############
+camera_id: 00018465
+quality: 0
+###############
+camera_id: 00004460
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 29
+box: 583 15 56 46
+###############
+camera_id: 00010292
+quality: 1
+has_bad_images: 0
+shape: 1280 800
+box: 0 0 1279 31
+###############
+camera_id: 00007069
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00006490
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 17
+###############
+camera_id: 00018472
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 17
+###############
+camera_id: 00008587
+quality: 2
+has_bad_images: 0
+shape: 384 288
+box: 0 0 383 16
+###############
+camera_id: 00008870
+quality: 1
+has_bad_images: 0
+shape: 1280 480
+box: 0 0 266 172
+box: 708 69 517 107
+box: 1034 0 245 48
+box: 0 447 1279 32
+box: 0 401 171 71
+###############
+camera_id: 00009290
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 439 0 200 13
+###############
+camera_id: 00021596
+quality: 2
+has_bad_images: 0
+shape: 800 480
+box: 601 449 198 30
+###############
+camera_id: 00017148
+quality: 2
+has_bad_images: 0
+shape: 1600 1200
+box: 0 0 1473 45
+###############
+camera_id: 00006301
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 56 50 249 59
+###############
+camera_id: 00023243
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 70
+###############
+camera_id: 00018612
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 433 446 206 33
+###############
+camera_id: 00019868
+quality: 0
+###############
+camera_id: 00017616
+quality: 3
+has_bad_images: 0
+shape: 1600 1200
+box: 0 0 941 32
+###############
+camera_id: 00009151
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 1023 17
+###############
+camera_id: 00017372
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00008449
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 28
+###############
+camera_id: 00015750
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 462 334 17
+box: 0 0 403 16
+###############
+camera_id: 00021087
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 60
+###############
+camera_id: 00020940
+quality: 0
+###############
+camera_id: 00009703
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+###############
+camera_id: 00010285
+quality: 0
+###############
+camera_id: 00008446
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 27
+###############
+camera_id: 00006460
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 17
+###############
+camera_id: 00017367
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 16
+###############
+camera_id: 00018368
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 230 19
+###############
+camera_id: 00019809
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 241 59
+###############
+camera_id: 00022396
+quality: 1
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 1279 29
+###############
+camera_id: 00009088
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+box: 0 358 129 121
+###############
+camera_id: 00020775
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 26
+###############
+camera_id: 00017201
+quality: 0
+###############
+camera_id: 00011152
+quality: 3
+has_bad_images: 0
+shape: 2048 1536
+box: 0 0 174 122
+###############
+camera_id: 00017103
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 321 119
+###############
+camera_id: 00017091
+quality: 1
+has_bad_images: 0
+shape: 1024 576
+box: 0 0 886 37
+###############
+camera_id: 00020736
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 32
+###############
+camera_id: 00003788
+quality: 0
+###############
+camera_id: 00018463
+quality: 0
+###############
+camera_id: 00019784
+quality: 0
+###############
+camera_id: 00022426
+quality: 2
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 1279 29
+###############
+camera_id: 00019783
+quality: 0
+###############
+camera_id: 00022336
+quality: 1
+has_bad_images: 0
+shape: 704 576
+###############
+camera_id: 00009481
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+###############
+camera_id: 00018189
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 289 419 25
+###############
+camera_id: 00009170
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 10
+box: 435 1 204 120
+###############
+camera_id: 00018221
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00018888
+quality: 2
+has_bad_images: 0
+shape: 1920 1088
+box: 0 0 117 20
+###############
+camera_id: 00019669
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+box: 203 245 148 42
+###############
+camera_id: 00011420
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00014842
+quality: 0
+###############
+camera_id: 00021766
+quality: 3
+has_bad_images: 0
+shape: 1296 960
+box: 0 0 684 93
+###############
+camera_id: 00023453
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 22
+###############
+camera_id: 00018063
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 291 419 23
+###############
+camera_id: 00004501
+quality: 0
+###############
+camera_id: 00010864
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 455 25
+box: 821 0 202 21
+box: 923 8 100 77
+###############
+camera_id: 00018360
+quality: 0
+###############
+camera_id: 00007318
+quality: 1
+has_bad_images: 0
+shape: 1280 960
+box: 0 0 1279 15
+###############
+camera_id: 00004010
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 359 25
+box: 0 8 4 567
+###############
+camera_id: 00019293
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 248 32
+###############
+camera_id: 00022328
+quality: 2
+has_bad_images: 0
+shape: 800 500
+box: 0 0 799 30
+###############
+camera_id: 00018431
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 125 423 388 56
+###############
+camera_id: 00009073
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 17
+box: 414 5 225 83
+###############
+camera_id: 00021504
+quality: 0
+###############
+camera_id: 00019817
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 441 639 38
+box: 0 0 639 19
+###############
+camera_id: 00001290
+quality: 0
+###############
+camera_id: 00019593
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 27
+box: 671 6 128 66
+###############
+camera_id: 00017164
+quality: 3
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00021031
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 30
+###############
+camera_id: 00003543
+quality: 1
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 23
+###############
+camera_id: 00019798
+quality: 0
+###############
+camera_id: 00006262
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 243 68
+box: 585 0 54 71
+###############
+camera_id: 00010010
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+###############
+camera_id: 00018277
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 0 57 33
+box: 0 289 419 25
+###############
+camera_id: 00019707
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 167 41
+###############
+camera_id: 00019812
+quality: 1
+has_bad_images: 0
+shape: 212 159
+###############
+camera_id: 00019416
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 436 639 43
+box: 0 0 639 10
+###############
+camera_id: 00014161
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 76 40
+###############
+camera_id: 00018377
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 291 419 23
+###############
+camera_id: 00003791
+quality: 0
+###############
+camera_id: 00010319
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 465 639 14
+box: 0 0 639 13
+###############
+camera_id: 00019785
+quality: 0
+###############
+camera_id: 00017709
+quality: 3
+has_bad_images: 0
+shape: 1296 960
+box: 0 0 540 31
+box: 121 107 1063 65
+###############
+camera_id: 00014353
+quality: 2
+has_bad_images: 0
+shape: 384 288
+box: 0 269 383 18
+###############
+camera_id: 00023093
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00019268
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 202 448 227 31
+###############
+camera_id: 00006270
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 28 8 335 78
+box: 582 0 57 87
+###############
+camera_id: 00006510
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+###############
+camera_id: 00018169
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00015818
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 243 22
+###############
+camera_id: 00021437
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 68 17
+box: 213 219 110 23
+###############
+camera_id: 00018150
+quality: 2
+has_bad_images: 0
+shape: 352 261
+box: 17 11 250 47
+box: 0 0 1 260
+box: 0 0 351 3
+box: 349 0 2 260
+box: 0 238 351 22
+###############
+camera_id: 00022733
+quality: 3
+has_bad_images: 0
+shape: 720 543
+###############
+camera_id: 00020673
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 27
+###############
+camera_id: 00019782
+quality: 0
+###############
+camera_id: 00019611
+quality: 1
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 398 43
+box: 0 587 121 132
+###############
+camera_id: 00019621
+quality: 0
+###############
+camera_id: 00021531
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 72
+###############
+camera_id: 00003425
+quality: 1
+has_bad_images: 0
+shape: 768 576
+###############
+camera_id: 00011578
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 17
+###############
+camera_id: 00010660
+quality: 0
+###############
+camera_id: 00008887
+quality: 3
+has_bad_images: 0
+shape: 1024 768
+box: 871 457 152 310
+box: 0 0 1023 8
+###############
+camera_id: 00019720
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+###############
+camera_id: 00018237
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00004298
+quality: 0
+###############
+camera_id: 00014416
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 555 25
+box: 549 0 90 24
+###############
+camera_id: 00022246
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 359 22
+###############
+camera_id: 00021758
+quality: 1
+has_bad_images: 0
+shape: 1296 960
+box: 0 0 797 73
+###############
+camera_id: 00010880
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 35
+box: 0 442 639 37
+###############
+camera_id: 00019860
+quality: 2
+has_bad_images: 0
+shape: 762 571
+box: 0 546 761 24
+###############
+camera_id: 00021788
+quality: 2
+has_bad_images: 0
+shape: 1296 960
+box: 0 0 705 91
+###############
+camera_id: 00018540
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00011680
+quality: 2
+has_bad_images: 0
+shape: 328 314
+box: 0 249 68 64
+box: 54 270 273 43
+box: 322 0 5 272
+box: 0 0 327 34
+box: 0 23 4 257
+###############
+camera_id: 00010206
+quality: 3
+has_bad_images: 0
+shape: 1920 1080
+###############
+camera_id: 00009745
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 356 22
+###############
+camera_id: 00020483
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 366 56
+box: 342 0 361 18
+###############
+camera_id: 00018236
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 295 419 19
+###############
+camera_id: 00009008
+quality: 3
+has_bad_images: 0
+shape: 1920 1080
+box: 0 914 456 165
+###############
+camera_id: 00018214
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00014452
+quality: 0
+###############
+camera_id: 00020760
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 32
+###############
+camera_id: 00011076
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 445 292 34
+box: 452 0 187 15
+###############
+camera_id: 00019734
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 11 4 175 41
+###############
+camera_id: 00007180
+quality: 2
+has_bad_images: 0
+shape: 576 432
+box: 0 0 575 18
+###############
+camera_id: 00019377
+quality: 0
+###############
+camera_id: 00019164
+quality: 0
+###############
+camera_id: 00012901
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 22
+###############
+camera_id: 00020303
+quality: 0
+###############
+camera_id: 00006451
+quality: 0
+###############
+camera_id: 00019329
+quality: 0
+###############
+camera_id: 00005302
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+###############
+camera_id: 00017257
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 40
+box: 527 21 112 50
+###############
+camera_id: 00018249
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00010152
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 444 639 35
+box: 0 0 639 10
+###############
+camera_id: 00011105
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+###############
+camera_id: 00007290
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 0 268 351 19
+###############
+camera_id: 00018342
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 287 419 27
+###############
+camera_id: 00024361
+quality: 2
+has_bad_images: 0
+shape: 480 360
+box: 0 318 479 41
+box: 475 0 4 359
+box: 0 0 2 359
+###############
+camera_id: 00018102
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 296 419 18
+###############
+camera_id: 00008575
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 15
+box: 538 6 101 106
+###############
+camera_id: 00021533
+quality: 0
+###############
+camera_id: 00010255
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 18
+box: 559 446 80 33
+###############
+camera_id: 00005363
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 22
+###############
+camera_id: 00008550
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 11 6 297 20
+###############
+camera_id: 00010182
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 820 0 203 109
+box: 0 0 164 21
+###############
+camera_id: 00019693
+quality: 1
+has_bad_images: 0
+shape: 320 240
+box: 0 5 87 26
+box: 169 197 150 42
+###############
+camera_id: 00015728
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 409 52
+###############
+camera_id: 00019732
+quality: 2
+has_bad_images: 0
+shape: 480 360
+box: 0 339 479 20
+###############
+camera_id: 00018448
+quality: 0
+###############
+camera_id: 00019722
+quality: 0
+###############
+camera_id: 00003535
+quality: 2
+has_bad_images: 0
+shape: 704 480
+###############
+camera_id: 00019893
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 345 20
+###############
+camera_id: 00018428
+quality: 1
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 1279 20
+###############
+camera_id: 00021491
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 252 26
+###############
+camera_id: 00018539
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 290 419 24
+###############
+camera_id: 00019098
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00004800
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00008260
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00018401
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 18
+box: 348 13 3 226
+###############
+camera_id: 00023168
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 24
+###############
+camera_id: 00021098
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 28
+###############
+camera_id: 00022381
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 514 182 61
+box: 558 509 145 66
+###############
+camera_id: 00008522
+quality: 2
+has_bad_images: 0
+shape: 720 480
+box: 0 0 719 19
+###############
+camera_id: 00019706
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 121 36
+###############
+camera_id: 00008590
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 157 74
+box: 157 0 482 9
+box: 522 0 117 42
+box: 0 436 639 43
+###############
+camera_id: 00008445
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 11 0 615 23
+###############
+camera_id: 00006484
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 3 116 26
+box: 169 191 150 48
+###############
+camera_id: 00020772
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 27
+###############
+camera_id: 00019789
+quality: 0
+###############
+camera_id: 00003480
+quality: 2
+has_bad_images: 0
+shape: 320 240
+###############
+camera_id: 00018287
+quality: 1
+has_bad_images: 0
+shape: 1280 720
+###############
+camera_id: 00003604
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+###############
+camera_id: 00017247
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 296 28
+box: 452 0 187 15
+box: 544 2 95 46
+###############
+camera_id: 00014521
+quality: 0
+###############
+camera_id: 00021465
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 467 473 12
+box: 459 412 180 67
+box: 0 0 639 44
+###############
+camera_id: 00019644
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 170 198 149 41
+box: 0 5 69 25
+###############
+camera_id: 00021090
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 27
+###############
+camera_id: 00008270
+quality: 2
+has_bad_images: 0
+shape: 352 261
+box: 0 0 351 13
+box: 15 8 85 46
+box: 97 6 162 28
+box: 0 234 351 26
+box: 347 2 4 258
+box: 0 5 2 245
+###############
+camera_id: 00018309
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018201
+quality: 0
+###############
+camera_id: 00009928
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 17
+###############
+camera_id: 00003850
+quality: 3
+has_bad_images: 0
+shape: 1024 768
+###############
+camera_id: 00017253
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 27
+box: 561 6 78 56
+###############
+camera_id: 00021150
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 72 479
+###############
+camera_id: 00009280
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 10
+###############
+camera_id: 00018512
+quality: 1
+has_bad_images: 0
+shape: 1024 576
+box: 0 0 1023 21
+box: 697 14 261 204
+###############
+camera_id: 00019920
+quality: 1
+has_bad_images: 0
+shape: 2048 1536
+box: 242 1433 1560 102
+###############
+camera_id: 00015828
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 231 20
+box: 0 455 639 24
+###############
+camera_id: 00005722
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 280 19
+###############
+camera_id: 00009660
+quality: 0
+###############
+camera_id: 00003892
+quality: 0
+###############
+camera_id: 00021598
+quality: 1
+has_bad_images: 0
+shape: 800 300
+box: 586 274 213 25
+###############
+camera_id: 00018196
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 288 419 26
+###############
+camera_id: 00018891
+quality: 2
+has_bad_images: 0
+shape: 640 359
+box: 0 21 72 43
+box: 0 334 639 24
+box: 459 34 180 23
+###############
+camera_id: 00017208
+quality: 0
+###############
+camera_id: 00009460
+quality: 1
+has_bad_images: 0
+shape: 800 600
+box: 0 0 511 6
+box: 0 580 419 23
+###############
+camera_id: 00018246
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00017128
+quality: 1
+has_bad_images: 0
+shape: 500 250
+###############
+camera_id: 00018183
+quality: 1
+has_bad_images: 0
+shape: 512 288
+box: 373 3 138 110
+box: 0 0 511 13
+###############
+camera_id: 00024196
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 18
+box: 130 461 377 18
+###############
+camera_id: 00010239
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 158 38
+box: 440 0 199 18
+###############
+camera_id: 00003513
+quality: 0
+###############
+camera_id: 00017243
+quality: 0
+###############
+camera_id: 00011137
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 16
+###############
+camera_id: 00017196
+quality: 0
+###############
+camera_id: 00011093
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 554 392 85 87
+box: 0 0 639 11
+###############
+camera_id: 00018470
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 18
+###############
+camera_id: 00012040
+quality: 0
+###############
+camera_id: 00019735
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 9 8 178 30
+###############
+camera_id: 00011332
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 0 12 575
+box: 0 0 703 3
+box: 696 0 7 575
+###############
+camera_id: 00019755
+quality: 0
+###############
+camera_id: 00011329
+quality: 0
+###############
+camera_id: 00018303
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 39 11 88 30
+box: 0 291 419 23
+###############
+camera_id: 00011407
+quality: 0
+###############
+camera_id: 00012868
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 18
+###############
+camera_id: 00001310
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 546 424 93 55
+box: 0 461 580 18
+###############
+camera_id: 00019546
+quality: 0
+###############
+camera_id: 00010147
+quality: 1
+has_bad_images: 0
+shape: 1280 720
+box: 741 22 516 55
+###############
+camera_id: 00018330
+quality: 2
+has_bad_images: 0
+shape: 640 500
+box: 0 473 639 26
+###############
+camera_id: 00019753
+quality: 0
+###############
+camera_id: 00006300
+quality: 0
+###############
+camera_id: 00019680
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 8 140 20
+box: 171 195 148 44
+###############
+camera_id: 00018408
+quality: 2
+has_bad_images: 0
+shape: 1280 720
+###############
+camera_id: 00019679
+quality: 2
+has_bad_images: 0
+shape: 384 288
+box: 0 0 383 18
+box: 231 242 152 45
+###############
+camera_id: 00004534
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+###############
+camera_id: 00017194
+quality: 0
+###############
+camera_id: 00017211
+quality: 0
+###############
+camera_id: 00007396
+quality: 0
+###############
+camera_id: 00010886
+quality: 3
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00011695
+quality: 1
+has_bad_images: 0
+shape: 328 314
+box: 0 270 327 43
+box: 0 0 327 37
+box: 323 30 4 248
+box: 0 25 4 252
+box: 0 243 72 37
+###############
+camera_id: 00019008
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 91 458 453 21
+###############
+camera_id: 00017207
+quality: 0
+###############
+camera_id: 00018155
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 443 30
+###############
+camera_id: 00018285
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 171 19
+###############
+camera_id: 00021427
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 66 16
+box: 219 221 104 21
+###############
+camera_id: 00019781
+quality: 0
+###############
+camera_id: 00014108
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 62 34
+box: 333 0 18 19
+###############
+camera_id: 00021001
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 28
+###############
+camera_id: 00003373
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 354 19
+###############
+camera_id: 00021436
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 67 16
+box: 215 220 108 22
+###############
+camera_id: 00017175
+quality: 2
+has_bad_images: 0
+shape: 1024 576
+box: 0 0 1023 18
+###############
+camera_id: 00018293
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 291 419 23
+###############
+camera_id: 00006511
+quality: 2
+has_bad_images: 0
+shape: 384 288
+box: 231 241 152 46
+box: 0 0 383 20
+###############
+camera_id: 00004111
+quality: 0
+###############
+camera_id: 00021515
+quality: 0
+###############
+camera_id: 00017138
+quality: 3
+has_bad_images: 0
+shape: 1600 1067
+###############
+camera_id: 00018259
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 0 419 24
+box: 0 289 419 25
+###############
+camera_id: 00021615
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 18
+box: 699 15 4 464
+box: 0 9 4 470
+###############
+camera_id: 00003919
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 17
+###############
+camera_id: 00004990
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 457 453 182 26
+###############
+camera_id: 00005453
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+###############
+camera_id: 00017199
+quality: 0
+###############
+camera_id: 00021431
+quality: 1
+has_bad_images: 0
+shape: 324 243
+box: 0 0 65 13
+box: 216 221 107 21
+###############
+camera_id: 00018571
+quality: 0
+###############
+camera_id: 00017182
+quality: 1
+has_bad_images: 0
+shape: 1024 576
+box: 0 0 1023 24
+###############
+camera_id: 00019617
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 216 33
+###############
+camera_id: 00018131
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 421 26
+###############
+camera_id: 00008248
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 21
+###############
+camera_id: 00010911
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+###############
+camera_id: 00003861
+quality: 2
+has_bad_images: 0
+shape: 352 288
+###############
+camera_id: 00005602
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 215 319 24
+box: 0 0 319 5
+###############
+camera_id: 00011102
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 17
+###############
+camera_id: 00017040
+quality: 2
+has_bad_images: 0
+shape: 1296 976
+box: 1 0 799 66
+###############
+camera_id: 00009265
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 9
+box: 0 467 639 12
+###############
+camera_id: 00017126
+quality: 1
+has_bad_images: 0
+shape: 500 250
+###############
+camera_id: 00018393
+quality: 2
+has_bad_images: 0
+shape: 1280 720
+box: 275 663 719 56
+###############
+camera_id: 00008526
+quality: 2
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 205 35
+###############
+camera_id: 00015969
+quality: 2
+has_bad_images: 0
+shape: 640 483
+box: 0 0 639 24
+###############
+camera_id: 00019726
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 20
+###############
+camera_id: 00019425
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 596 432 107 47
+###############
+camera_id: 00010244
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00014359
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 10
+###############
+camera_id: 00004000
+quality: 1
+has_bad_images: 0
+shape: 678 518
+box: 0 0 677 38
+box: 0 36 24 481
+box: 0 489 662 28
+###############
+camera_id: 00008370
+quality: 1
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 1279 30
+###############
+camera_id: 00009234
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 10
+###############
+camera_id: 00009187
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 446 0 193 14
+###############
+camera_id: 00020543
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 3 443 357 23
+box: 14 2 353 40
+###############
+camera_id: 00019705
+quality: 1
+has_bad_images: 0
+shape: 320 240
+box: 0 4 108 34
+box: 164 194 155 45
+###############
+camera_id: 00017664
+quality: 3
+has_bad_images: 0
+shape: 2048 1536
+###############
+camera_id: 00003593
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 17
+###############
+camera_id: 00015819
+quality: 0
+###############
+camera_id: 00014257
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00021057
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 30
+###############
+camera_id: 00023048
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 19
+###############
+camera_id: 00019872
+quality: 2
+has_bad_images: 0
+shape: 762 571
+box: 0 553 761 17
+###############
+camera_id: 00023356
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00011693
+quality: 1
+has_bad_images: 0
+shape: 328 314
+box: 0 0 327 35
+box: 0 272 327 41
+box: 0 249 66 29
+box: 0 29 7 241
+box: 319 25 8 280
+###############
+camera_id: 00007558
+quality: 2
+has_bad_images: 0
+shape: 1624 1224
+box: 0 0 607 13
+box: 1388 0 235 11
+###############
+camera_id: 00005460
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+###############
+camera_id: 00012367
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+box: 508 6 121 125
+###############
+camera_id: 00018451
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00017031
+quality: 0
+###############
+camera_id: 00009090
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+###############
+camera_id: 00017603
+quality: 2
+has_bad_images: 0
+shape: 800 450
+###############
+camera_id: 00008479
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 11
+###############
+camera_id: 00019821
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 21
+box: 488 12 145 135
+box: 0 441 639 38
+###############
+camera_id: 00021458
+quality: 0
+###############
+camera_id: 00018300
+quality: 1
+has_bad_images: 0
+shape: 320 240
+box: 0 217 319 22
+###############
+camera_id: 00018604
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00010191
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 27
+###############
+camera_id: 00008794
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+###############
+camera_id: 00019681
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 20
+box: 204 243 147 44
+###############
+camera_id: 00019834
+quality: 2
+has_bad_images: 0
+shape: 672 512
+box: 0 491 671 20
+box: 0 0 422 16
+###############
+camera_id: 00019328
+quality: 0
+###############
+camera_id: 00019038
+quality: 2
+has_bad_images: 0
+shape: 960 600
+box: 0 0 959 14
+box: 0 589 959 10
+###############
+camera_id: 00004489
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 83 24
+box: 0 9 3 566
+box: 0 570 703 5
+box: 693 0 10 575
+box: 81 0 622 5
+###############
+camera_id: 00004170
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 139 18
+###############
+camera_id: 00019853
+quality: 2
+has_bad_images: 0
+shape: 762 571
+box: 0 552 761 18
+###############
+camera_id: 00017153
+quality: 2
+has_bad_images: 0
+shape: 648 486
+box: 410 445 237 40
+###############
+camera_id: 00018354
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 182 447 269 32
+###############
+camera_id: 00019723
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 19
+###############
+camera_id: 00018181
+quality: 1
+has_bad_images: 0
+shape: 512 288
+box: 374 0 137 114
+box: 0 0 511 14
+###############
+camera_id: 00018487
+quality: 2
+has_bad_images: 0
+shape: 1280 720
+###############
+camera_id: 00019719
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+###############
+camera_id: 00010211
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 9
+###############
+camera_id: 00009730
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 457 639 22
+###############
+camera_id: 00019794
+quality: 0
+###############
+camera_id: 00019426
+quality: 3
+has_bad_images: 0
+shape: 720 405
+box: 0 0 719 21
+box: 0 352 60 52
+###############
+camera_id: 00021454
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 214 26
+box: 0 14 213 52
+###############
+camera_id: 00022358
+quality: 1
+has_bad_images: 0
+shape: 704 576
+box: 0 0 703 17
+box: 696 15 7 560
+box: 0 563 696 12
+###############
+camera_id: 00008104
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 438 639 41
+box: 563 0 76 70
+###############
+camera_id: 00018305
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00010923
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 14
+###############
+camera_id: 00023288
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 28
+###############
+camera_id: 00009366
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+###############
+camera_id: 00003886
+quality: 2
+has_bad_images: 1
+shape: 640 480
+box: 0 0 639 23
+###############
+camera_id: 00018142
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+###############
+camera_id: 00009780
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 18
+###############
+camera_id: 00017202
+quality: 0
+###############
+camera_id: 00008574
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 156 13
+###############
+camera_id: 00019672
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+###############
+camera_id: 00017251
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 297 50
+box: 450 0 189 14
+###############
+camera_id: 00022801
+quality: 1
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 16
+###############
+camera_id: 00021426
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 0 0 63 14
+box: 215 221 108 21
+###############
+camera_id: 00003548
+quality: 0
+###############
+camera_id: 00019711
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 18
+box: 197 242 154 45
+###############
+camera_id: 00018758
+quality: 0
+###############
+camera_id: 00018198
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 291 419 23
+###############
+camera_id: 00010096
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 165 24
+###############
+camera_id: 00021529
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 23
+box: 554 10 85 66
+###############
+camera_id: 00000721
+quality: 0
+###############
+camera_id: 00018459
+quality: 1
+has_bad_images: 0
+shape: 640 360
+###############
+camera_id: 00019380
+quality: 2
+has_bad_images: 0
+shape: 1600 1200
+box: 0 0 660 69
+###############
+camera_id: 00021528
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 34
+box: 562 8 77 59
+###############
+camera_id: 00007040
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 25
+box: 0 189 75 50
+###############
+camera_id: 00005190
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 439 639 40
+###############
+camera_id: 00017195
+quality: 0
+###############
+camera_id: 00006653
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 13 259 46
+###############
+camera_id: 00018514
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 20
+###############
+camera_id: 00021586
+quality: 0
+###############
+camera_id: 00010199
+quality: 2
+has_bad_images: 0
+shape: 800 450
+box: 0 0 799 28
+###############
+camera_id: 00021525
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 25
+box: 533 10 106 34
+###############
+camera_id: 00008992
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00003368
+quality: 0
+###############
+camera_id: 00006961
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 457 182 22
+###############
+camera_id: 00018545
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 291 419 23
+###############
+camera_id: 00009135
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 24
+box: 354 305 127 133
+box: 0 405 69 65
+###############
+camera_id: 00018505
+quality: 1
+has_bad_images: 0
+shape: 1280 960
+###############
+camera_id: 00022306
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00019779
+quality: 2
+has_bad_images: 0
+shape: 352 288
+box: 0 0 351 15
+box: 201 14 150 16
+box: 350 24 1 263
+box: 0 285 351 2
+###############
+camera_id: 00006823
+quality: 2
+has_bad_images: 0
+shape: 1600 1200
+box: 0 0 220 104
+box: 0 1176 253 23
+###############
+camera_id: 00018281
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 289 419 25
+###############
+camera_id: 00017250
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 29
+box: 551 15 88 56
+###############
+camera_id: 00009097
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 14
+###############
+camera_id: 00007530
+quality: 1
+has_bad_images: 0
+shape: 320 240
+###############
+camera_id: 00018172
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00020511
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 361 54
+box: 342 0 361 19
+###############
+camera_id: 00018456
+quality: 0
+###############
+camera_id: 00018476
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00022388
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 17
+###############
+camera_id: 00004312
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 306 35
+###############
+camera_id: 00018217
+quality: 2
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 294 38
+###############
+camera_id: 00009224
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 452 0 187 14
+###############
+camera_id: 00003569
+quality: 1
+has_bad_images: 0
+shape: 704 480
+###############
+camera_id: 00018269
+quality: 2
+has_bad_images: 0
+shape: 1296 960
+box: 0 0 223 48
+###############
+camera_id: 00019631
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 170 195 149 44
+box: 0 5 117 25
+###############
+camera_id: 00018473
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00003553
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 17
+###############
+camera_id: 00018527
+quality: 1
+has_bad_images: 0
+shape: 720 480
+box: 708 0 11 479
+box: 0 472 719 7
+box: 0 0 3 479
+box: 0 0 719 5
+###############
+camera_id: 00008510
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00010060
+quality: 1
+has_bad_images: 0
+shape: 1024 768
+###############
+camera_id: 00005243
+quality: 2
+has_bad_images: 0
+shape: 320 240
+###############
+camera_id: 00011940
+quality: 1
+has_bad_images: 0
+shape: 352 240
+###############
+camera_id: 00019898
+quality: 1
+has_bad_images: 0
+shape: 704 480
+###############
+camera_id: 00014458
+quality: 0
+###############
+camera_id: 00009252
+quality: 1
+has_bad_images: 0
+shape: 1280 960
+box: 1101 0 178 155
+###############
+camera_id: 00009309
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 12
+###############
+camera_id: 00021578
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 27
+###############
+camera_id: 00010262
+quality: 2
+has_bad_images: 0
+shape: 320 178
+box: 0 163 248 14
+box: 167 0 152 15
+###############
+camera_id: 00009683
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 10
+###############
+camera_id: 00018507
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00008599
+quality: 3
+has_bad_images: 0
+shape: 1024 768
+box: 0 0 1023 10
+box: 0 728 112 39
+###############
+camera_id: 00008023
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 125 189 171 27
+###############
+camera_id: 00019148
+quality: 1
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 17
+###############
+camera_id: 00010440
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 92 448 306 31
+box: 0 0 259 24
+###############
+camera_id: 00018340
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00020493
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 356 20
+###############
+camera_id: 00014116
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 60 35
+box: 329 0 22 19
+###############
+camera_id: 00018356
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00009508
+quality: 2
+has_bad_images: 0
+shape: 600 450
+box: 79 370 272 79
+box: 0 0 599 9
+###############
+camera_id: 00003760
+quality: 2
+has_bad_images: 0
+shape: 600 456
+###############
+camera_id: 00010215
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+###############
+camera_id: 00018383
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00003375
+quality: 0
+###############
+camera_id: 00018197
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 289 419 25
+###############
+camera_id: 00019449
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 124 447 376 32
+box: 227 0 201 29
+###############
+camera_id: 00004216
+quality: 2
+has_bad_images: 0
+shape: 704 576
+box: 0 0 365 22
+###############
+camera_id: 00021546
+quality: 2
+has_bad_images: 0
+shape: 1280 720
+box: 0 0 353 35
+###############
+camera_id: 00017118
+quality: 3
+has_bad_images: 0
+shape: 500 250
+###############
+camera_id: 00020491
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 366 54
+box: 362 1 341 14
+###############
+camera_id: 00008263
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 30
+###############
+camera_id: 00019413
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+###############
+camera_id: 00008206
+quality: 2
+has_bad_images: 0
+shape: 704 480
+###############
+camera_id: 00009190
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 33
+box: 545 33 94 58
+###############
+camera_id: 00011150
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 445 639 34
+box: 530 0 109 125
+###############
+camera_id: 00012355
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+box: 501 19 138 119
+###############
+camera_id: 00019751
+quality: 2
+has_bad_images: 0
+shape: 480 360
+box: 0 338 479 21
+###############
+camera_id: 00018445
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00003801
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 21
+###############
+camera_id: 00018441
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 294 419 20
+###############
+camera_id: 00004830
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 165 457 313 22
+###############
+camera_id: 00003562
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+###############
+camera_id: 00018200
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 295 419 19
+###############
+camera_id: 00010108
+quality: 2
+has_bad_images: 0
+shape: 1920 1080
+###############
+camera_id: 00021527
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 32
+box: 514 18 125 58
+###############
+camera_id: 00010522
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 0 435 112 44
+box: 0 0 639 12
+###############
+camera_id: 00018346
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018504
+quality: 1
+has_bad_images: 0
+shape: 800 608
+box: 0 0 226 42
+###############
+camera_id: 00010078
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 149 63
+box: 450 0 189 14
+###############
+camera_id: 00018128
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 31 8 121 26
+box: 0 267 148 47
+box: 143 295 276 19
+###############
+camera_id: 00004060
+quality: 2
+has_bad_images: 0
+shape: 640 360
+###############
+camera_id: 00008416
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 359 25
+###############
+camera_id: 00017241
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 632 23
+box: 449 0 190 92
+###############
+camera_id: 00004591
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 14
+###############
+camera_id: 00010260
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 20
+box: 464 390 175 67
+###############
+camera_id: 00018048
+quality: 2
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00017628
+quality: 2
+has_bad_images: 0
+shape: 1600 1200
+box: 0 0 973 33
+###############
+camera_id: 00021566
+quality: 1
+has_bad_images: 0
+shape: 720 405
+box: 0 357 58 47
+box: 0 0 719 22
+###############
+camera_id: 00011119
+quality: 0
+###############
+camera_id: 00018525
+quality: 2
+has_bad_images: 0
+shape: 720 480
+box: 709 0 10 479
+box: 0 473 719 6
+###############
+camera_id: 00003310
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 115 0 403 16
+box: 44 0 546 16
+###############
+camera_id: 00010243
+quality: 0
+###############
+camera_id: 00021638
+quality: 2
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 17
+###############
+camera_id: 00019827
+quality: 0
+###############
+camera_id: 00010207
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 13
+###############
+camera_id: 00023438
+quality: 2
+has_bad_images: 0
+shape: 800 600
+box: 0 0 799 30
+###############
+camera_id: 00018474
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00018220
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00012895
+quality: 2
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 18
+###############
+camera_id: 00021113
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 28
+###############
+camera_id: 00021506
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 39
+box: 588 30 51 66
+###############
+camera_id: 00017162
+quality: 1
+has_bad_images: 0
+shape: 648 486
+box: 425 451 222 34
+box: 398 450 49 35
+###############
+camera_id: 00021430
+quality: 2
+has_bad_images: 0
+shape: 324 243
+box: 209 218 114 24
+box: 0 0 68 19
+###############
+camera_id: 00018488
+quality: 2
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00018355
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 292 419 22
+###############
+camera_id: 00010363
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 218 37
+box: 445 0 194 10
+box: 0 436 639 43
+###############
+camera_id: 00018218
+quality: 1
+has_bad_images: 0
+shape: 640 480
+###############
+camera_id: 00021616
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 16
+box: 696 16 7 463
+###############
+camera_id: 00018177
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 219 0 206 36
+box: 0 459 639 20
+###############
+camera_id: 00020490
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 372 60
+box: 360 0 343 24
+###############
+camera_id: 00018297
+quality: 1
+has_bad_images: 0
+shape: 640 480
+box: 0 0 607 27
+###############
+camera_id: 00021569
+quality: 1
+has_bad_images: 0
+shape: 352 288
+box: 0 244 351 43
+box: 343 0 8 254
+box: 0 0 351 30
+box: 0 24 41 30
+###############
+camera_id: 00021033
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 27
+###############
+camera_id: 00019733
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 9 5 187 37
+###############
+camera_id: 00010327
+quality: 2
+has_bad_images: 0
+shape: 320 240
+box: 0 0 319 17
+box: 316 15 3 224
+box: 0 220 319 19
+###############
+camera_id: 00019317
+quality: 0
+###############
+camera_id: 00010579
+quality: 3
+has_bad_images: 0
+shape: 640 480
+box: 6 5 118 113
+box: 0 0 639 9
+###############
+camera_id: 00018210
+quality: 1
+has_bad_images: 0
+shape: 420 315
+box: 0 293 419 21
+###############
+camera_id: 00005020
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 639 19
+###############
+camera_id: 00013255
+quality: 1
+has_bad_images: 0
+shape: 352 240
+box: 0 0 351 18
+###############
+camera_id: 00018526
+quality: 1
+has_bad_images: 0
+shape: 720 480
+###############
+camera_id: 00005353
+quality: 2
+has_bad_images: 0
+shape: 640 480
+box: 0 0 428 30
+###############
+camera_id: 00005656
+quality: 1
+has_bad_images: 0
+shape: 768 576
+box: 0 0 767 12
+box: 0 557 767 18
+###############
+camera_id: 00021121
+quality: 1
+has_bad_images: 0
+shape: 704 480
+box: 0 0 703 26

@@ -1,0 +1,3 @@
+/home/reto/Documents/Abgabe/brisk/build/agast/CMakeFiles/agast.dir
+/home/reto/Documents/Abgabe/brisk/build/CMakeFiles/brisk.dir
+/home/reto/Documents/Abgabe/brisk/build/CMakeFiles/demo.dir
